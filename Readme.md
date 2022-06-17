@@ -21,4 +21,3 @@ docker build -t 'flask-app:v1' .
 docker run -p 8080:5000 --name flask_container -d --mount type=bind,source="$(pwd)"/data,target='/app/data' flask-app:v1
 ```
 
-![скриншот](screenshot/screen.png "Скриншот")

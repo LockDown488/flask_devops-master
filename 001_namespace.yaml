@@ -1,0 +1,17 @@
+kind: Pod
+
+apiVersion: v1
+
+metadata:
+
+  name: mypod
+
+  namespace: test
+
+spec:
+
+  containers:
+
+  - name: mypod
+
+    image: someimage:1.0.0
